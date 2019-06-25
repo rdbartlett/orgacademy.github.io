@@ -351,13 +351,17 @@ hr.haar-p {
 }
 
 @media screen and (max-width: 920px) {
+	.bg-start {
+		height: 1400px;
+	}
+
 	.projects {
 		height: 700px;
 		padding: 10px;
 	}
 
 	.team {
-		height: 400px;
+		height: 500px;
 		margin: 20px;
 	}
 
