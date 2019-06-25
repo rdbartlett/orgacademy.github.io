@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        {% capture title %}{% if page.title %}{{ page.title | capitalize }}{% if page.tagline %} -- {{page.tagline| capitalize }}{% endif %} || {{site.title}}{% else %} {{site.title}}{% endif %}{% endcapture %}
+
+        <title>{{ title | escape }}</title>
+        <title>Enspiral Org Academy</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="/css/basscss.min.css">
+        <link rel="stylesheet" href="/css/basscss.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/font-awesome-4.4.0/css/font-awesome.min.css">
+         <link href="https://fonts.googleapis.com/css?family=Hind:300,400|Oswald&display=swap" rel="stylesheet"> 
+
+        {% if page.styles %}
+            {% for style in page.styles %}
+            <link rel="stylesheet" href="{{style}}">
+            {% endfor %}
+        {% endif %}
+
+          <script type="text/javascript">
+          if(!window.$) {
+            window.__call_laters = [];
+            function jq_dummy(fun) {
+               window.__call_laters.push(fun)
+            }
+            window.$ = jq_dummy;
+          }
+          </script>
+    </head>
+
+    <body class="background">
+
+    {{content}}
+
+  <div class="purple-dark-bg footer-elem">
+    <footer>
+      <div class="center mt2">
+        <p>Copyright June 2019 - Ensirpal Org Academy</p>
+      </div>
+    </footer>
+  </div>
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="/js/css.js"></script>
+        <script type="text/javascript" src="/js/s3.js"></script>
+        <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </body>
+</html>
