@@ -15,11 +15,13 @@ p {
 
 h2, h3, h4, h5 {
   font-weight: 500;
+  font-family: 'Oswald', sans-serif;
 }
 
 h1 {
 	font-weight: 400;
 	font-size: 2.3rem;
+	font-family: 'Oswald', sans-serif;
 
 /*	font-size: 2.5rem;*/
 }
@@ -87,7 +89,7 @@ footer {
 
 .bg-dark {
 	color: white;
-	background-color: #55d048;
+	background-color: #bfbfc7;
 /*	background-image: linear-gradient(to bottom,rgba(3, 188, 150, 0.95),rgba(3, 154, 123, 0.95)), url("../lion_2.png");
 */
 }
@@ -213,7 +215,7 @@ hr.haar-h {
 	border: 0;
     height: 4px;
     width: 20vw;
-    background: #40b933;
+    background: #fff401;
     margin-bottom: 30px;
     margin-left: 33px;
 /*    margin: 0 auto;
@@ -224,7 +226,7 @@ hr.haar-y {
 	border: 0;
     height: 4px;
     width: 20vw;
-    background: white;
+    background: #6d37e9;
     margin-bottom: 30px;
     margin-left: 33px;
 /*    margin: 0 auto;
