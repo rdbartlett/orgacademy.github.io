@@ -95,9 +95,9 @@ footer {
 }
 
 .bg-light {
-	color: black;
+	color: white;
 	background-color: #e4dafb;
-	background-image: linear-gradient(to bottom,rgba(215, 200, 249, 0.9),rgba(215, 200, 249, 0.7)), url("../image/Facilitation_circle.jpg");
+	background-image: linear-gradient(to bottom,rgba(215, 200, 249, 0.7),rgba(215, 200, 249, 0.6)), url("../image/space_1.png");
 	background-size: cover;
 }
 
@@ -139,37 +139,18 @@ footer {
 
 .projects  h3 {
 	font-weight: 600;
-  color: black;
+  	color: black;
 }
 
 .projects  {
 	color: #20063B;
 	background-color: white;
-	padding: 40px;
-	height: 350px;
-	margin: 0 auto;
+	padding: 2vw;
+	margin-left: 8vw;
 	border-top-right-radius: 3px;
 	border-bottom-left-radius: 3px;
 }
 
-
-.projects-img {
-	height: 300px;
-	padding: 20px;
-	border-top-left-radius: 3px;
-	border-bottom-right-radius: 3px;
-}
-
-
-
-.bg-projects {
-	color: white;
-	background-color: #aef1a7;
-	border: none;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	z-index: 1000;
-}
 
 .bg-footer {
 	color: white;
