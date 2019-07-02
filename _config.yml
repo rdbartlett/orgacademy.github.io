@@ -1,11 +1,9 @@
 # Site settings
-title: Enspiral Org Acaedmy
-email: x@y.com
-description: 
+title: Enspiral Org Academy · 5-8 Sept 2019 · Belgium
+email: phoebe@enspiral.com
+description: 4-day residential training on decentralised organisation. An immersive learning experience to connect and practice with organisational adventurers from the future of work.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-twitter_username: anoukruhaak
-github_username:  anoukruhaak
 
 # Build settings
 markdown: kramdown
